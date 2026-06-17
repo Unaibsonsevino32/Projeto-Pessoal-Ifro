@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unaibson Sevino de Oliveira</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Unaibson Sevino de Oliveira</h1>
+      <p>Desenvolvedor Front-End em Transição de Carreira</p>
+    </header>
+
+    <section class="sobre">
+      <img class="img" src="./img/1000586829 (1).webp" alt="Foto de Perfil" />
+
+      <div>
+        <h2>Sobre Mim</h2>
+
+        <p>
+          MEU NOME:Unaibson Sevino de Oliveira IDADE:34 Cursando:ADS - Análise e
+          Desenvolvimento de Sistemas. Instituto:IFRO - Instituto Federal de
+          Rondônia. Primeio semestre de 2026. Professor:Marcos Alves Faino Sou
+          Unaibson Sevino de Oliveira, estudante de ADS Atualmente estou
+          realizando minha transição de carreira para a área de tecnologia.
+          Tenho conhecimentos em HTML, CSS, JavaScript, Git e GitHub.
+        </p>
+
+        <h3>Links</h3>
+
+        <a href="https://github.com/Unaibsonsevino32" target="_blank">GitHub</a>
+
+        <a href="https://www.linkedin.com/in/unaibsonsevino/" target="_blank"
+          >LinkedIn</a
+        >
+
+        <br /><br />
+
+        <a class="btn" href="index.html/aplicacao-educativa.html">
+          Aplicação Educativa
+        </a>
+      </div>
+    </section>
+
+    <section class="contato">
+      <h2>Contato</h2>
+
+      <form id="formulario">
+        <label>Nome</label>
+        <input type="text" id="nome" required minlength="3" />
+
+        <label>Data de nascimento</label>
+        <input type="date" required />
+
+        <label>Idade</label>
+        <input type="number" min="1" max="120" required />
+
+        <label>Nível de conhecimento</label>
+
+        <select required>
+          <option value="">Escolha</option>
+          <option>Iniciante</option>
+          <option>Intermediário</option>
+          <option>Avançado</option>
+        </select>
+
+        <p>Área favorita</p>
+
+        <label>
+          <input type="radio" name="area" required />
+          Front-End
+        </label>
+
+        <label>
+          <input type="radio" name="area" />
+          Back-End
+        </label>
+
+        <p>Tecnologias</p>
+
+        <label>
+          <input type="checkbox" />
+          HTML
+        </label>
+
+        <label>
+          <input type="checkbox" />
+          CSS
+        </label>
+
+        <label>
+          <input type="checkbox" />
+          JavaScript
+        </label>
+
+        <label>Mensagem</label>
+
+        <textarea id="mensagem" minlength="10" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+header {
+  background: #0a66c2;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.sobre {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  align-items: center;
+}
+
+.sobre img {
+  width: 300px;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.btn {
+  background: #0a66c2;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.contato {
+  padding: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+}
+
+input,
+textarea,
+select {
+  padding: 10px;
+}
+
+button {
+  padding: 12px;
+  cursor: pointer;
+  background: #0a66c2;
+  color: white;
+  border: none;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+  .sobre {
+    flex-direction: column;
+  }
+}
+
+/* Celular */
+
+@media (max-width: 600px) {
+  header {
+    padding: 20px;
+  }
+
+  .sobre {
+    padding: 20px;
+  }
+
+  .sobre img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
